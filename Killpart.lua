@@ -1,4 +1,4 @@
-local killPart = workspace:WaitForChild("objects"):WaitForChild("killpart")
+--[[local killPart = workspace:WaitForChild("objects"):WaitForChild("killpart")
 	
 	
 killPart.Touched:Connect(function(part : BasePart)
@@ -6,3 +6,4 @@ killPart.Touched:Connect(function(part : BasePart)
 		part.Parent:FindFirstChild("Humanoid").Health = 0
 	end
 end)
+]]--
